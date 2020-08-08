@@ -1,0 +1,23 @@
+{
+    "name": "leurdo/carbon-field-taxonomy",
+    "description": "Carbon Fields extension, that adds a taxonomy field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-taxonomy"],
+    "homepage": "",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Katya Leurdo",
+            "email": "katya.leurdo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Rich_Input\\": "core/"
+        }
+    }
+}
