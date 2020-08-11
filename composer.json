@@ -1,5 +1,5 @@
 {
-    "name": "leurdo/carbon-field-taxonomy",
+    "name": "leurdo/carbon-field-rich-input",
     "description": "Carbon Fields extension, that adds a taxonomy field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-taxonomy"],
     "homepage": "",
