@@ -81,7 +81,7 @@ class RichInputField extends Component {
 				onChange={ this.handleChange }
 				onFocus={ this.handleFocus }
 				onBlur={ this.handleFocus }
-				autoComplete="new-password"
+				autoComplete="off"
 				{ ...field.attributes }
 			/>
 			{ hasFocus ? (
