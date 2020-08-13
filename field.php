@@ -1,10 +1,12 @@
 <?php
 
+namespace Carbon_Field_Rich_Input;
+
 use Carbon_Fields\Carbon_Fields;
 use Carbon_Field_Rich_Input\Rich_Input_Field;
 
-define( 'Carbon_Field_Taxonomy\\DIR', __DIR__ );
-define( 'CARBON_TAXONOMY_VERSION', '1.0.1');
+define( 'Carbon_Field_Rich_Input\\DIR', __DIR__ );
+define( 'CARBON_RICH_INPUT_VERSION', '1.0.0');
 
 if ( ! is_cli() ) {
 	Carbon_Fields::extend(
@@ -24,6 +26,7 @@ if ( ! is_cli() ) {
  *
  * @return bool
  */
+
 function is_cli() {
 	if ( defined( 'STDIN' ) ) {
 		return true;
@@ -37,3 +40,4 @@ function is_cli() {
 
 	return false;
 }
+

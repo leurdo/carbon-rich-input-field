@@ -1,47 +1,6 @@
 /* ==========================================================================
-   Taxonomy Select
+   Reach Input
    ========================================================================== */
 $bordercolor: #7e8993;
 $textcolor: #32373c;
 $focuscolor: #007cba;
-
-
-.react-taxonomy__control {
-	color: $textcolor;
-	border-color: $bordercolor;
-	box-shadow: none;
-	border-radius: 3px;
-	min-height: 30px;
-	vertical-align: middle;
-
-	&--is-focused {
-		border-color: $focuscolor !important;
-	}
-}
-
-.react-taxonomy__value-container {
-	padding: 0 8px;
-
-	div {
-		padding-top: 0;
-		padding-bottom: 0;
-	}
-}
-
-.react-taxonomy__input input[type="text"] {
-	min-height: auto;
-
-	&:focus {
-		box-shadow: none;
-	}
-}
-
-.react-taxonomy__menu {
-	z-index: 100;
-	max-width: 25rem;
-}
-
-.react-taxonomy__indicator {
-	color: $textcolor;
-	padding: 0;
-}

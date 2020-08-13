@@ -1,7 +1,6 @@
 # Taxonomy Carbon Field
 
-Carbon Fields extension, adding "taxonomy" field type. This is select with ajax load and creation of new term.
-Now multiselect is also supported (see Usage).
+Carbon Fields extension, adding "rich_input" field type. This is ordinary text input, but with buttons allowing inserting special Unicode characters (buttons list is set with field class methods, see Usage). Buttons will be shown when input gets focus, and they will be hidden when input looses focus. 
 
 ### Requirements
 
@@ -16,13 +15,13 @@ Add the following to composer.json:
 "repositories": [
    {
       "type": "vcs",
-      "url": "https://github.com/leurdo/carbon-taxonomy-field.git"
+      "url": "https://github.com/leurdo/carbon-rich-input-field.git"
    }
 ],
 "require": {
   "php": ">=5.3.2",
   "htmlburger/carbon-fields": "^3.0.0",
-  "leurdo/carbon-field-taxonomy": "dev-master",
+  "leurdo/carbon-field-rich-input": "dev-master",
   "composer/installers": "^1.3.0"
 }
 ```
@@ -30,12 +29,8 @@ Add the following to composer.json:
 ## Usage
 
 ```
-Field::make( 'taxonomy', 'field_name', 'Field Label' )
-    ->set_taxonomy( 'mytax' )
-    ->set_placeholder( 'Select...' )
-    ->set_create( 'Create' )
-    ->set_loading( 'Loading...' )
-    ->set_multiple( true )
+Field::make( 'rich_input', 'field_name', 'Field Label' )
+    ->set_buttons( ['♠', '♥', '♦', '♣'] )
 ```
 
 
