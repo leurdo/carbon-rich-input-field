@@ -15,7 +15,7 @@ class Toolbar extends Component {
 
 		return (
 			<>
-				{ buttons.map(button => <button type="button" className='button' key={button} onMouseDown={ doInsert }> {button} </button>) }
+				{ buttons.map(button => <button type="button" className='button' style={{ "margin-top": "10px", "margin-right": "4px" }} key={ button } onMouseDown={ doInsert }> { button } </button>) }
 			</>
 		);
 	}
