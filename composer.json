@@ -11,7 +11,9 @@
             "email": "katya.leurdo@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "htmlburger/carbon-fields": "^3.2",
+    },
     "autoload": {
         "files": [
             "field.php"
