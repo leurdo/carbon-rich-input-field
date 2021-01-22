@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "htmlburger/carbon-fields": "^3.2",
+        "htmlburger/carbon-fields": "^3.2"
     },
     "autoload": {
         "files": [
